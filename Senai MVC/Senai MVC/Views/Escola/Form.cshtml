@@ -1,0 +1,18 @@
+﻿@using Senai_MVC.Models.Escola
+@model EscolaModel
+
+<h2>Escola</h2>
+
+<form method="post" asp-action="Form" asp-controller="Escola">
+
+	<div class="mb-3">
+		<input type="hidden" asp-for="Id" />
+		<label class="form-label">Nome</label>
+		<input type="text" class="form-control" asp-for="Nome" />
+		@Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger" })
+	</div>
+	<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+		<button type="submit" class="btn btn-success">Adicionar</button>
+	</div>
+
+</form>

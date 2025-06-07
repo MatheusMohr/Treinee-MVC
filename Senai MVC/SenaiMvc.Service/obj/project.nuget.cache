@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RPav1cFssSU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\SenaiMvc.Service\\SenaiMvc.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matheus_mohr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

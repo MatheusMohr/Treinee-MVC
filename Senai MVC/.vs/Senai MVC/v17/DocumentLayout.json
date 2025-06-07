@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\escola\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\escola\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE195FC-C1A5-40EA-9C34-B4408103584B}|SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senaimvc.service\\interface\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE195FC-C1A5-40EA-9C34-B4408103584B}|SenaiMvc.Service\\SenaiMvc.Service.csproj|solutionrelative:senaimvc.service\\interface\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE195FC-C1A5-40EA-9C34-B4408103584B}|SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senaimvc.service\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE195FC-C1A5-40EA-9C34-B4408103584B}|SenaiMvc.Service\\SenaiMvc.Service.csproj|solutionrelative:senaimvc.service\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\models\\escola\\escolamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\models\\escola\\escolamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|c:\\users\\matheus_mohr\\desktop\\desafio mvc\\senai mvc\\senai mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4CFFC4-2A33-4DEF-AC2C-B4237CFB39B1}|Senai MVC\\Senai MVC.csproj|solutionrelative:senai mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IApiService.cs",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\SenaiMvc.Service\\Interface\\IApiService.cs",
+              "RelativeDocumentMoniker": "SenaiMvc.Service\\Interface\\IApiService.cs",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\SenaiMvc.Service\\Interface\\IApiService.cs",
+              "RelativeToolTip": "SenaiMvc.Service\\Interface\\IApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:17:53.233Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\SenaiMvc.Service\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "SenaiMvc.Service\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\SenaiMvc.Service\\Services\\ApiService.cs",
+              "RelativeToolTip": "SenaiMvc.Service\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:17:02.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EscolaModel.cs",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Models\\Escola\\EscolaModel.cs",
+              "RelativeDocumentMoniker": "Senai MVC\\Models\\Escola\\EscolaModel.cs",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Models\\Escola\\EscolaModel.cs",
+              "RelativeToolTip": "Senai MVC\\Models\\Escola\\EscolaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:13:17.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Escola\\Form.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\Escola\\Form.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Escola\\Form.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\Escola\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T12:07:09.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Escola\\Index.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\Escola\\Index.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Escola\\Index.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\Escola\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T11:54:04.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EscolaController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Controllers\\EscolaController.cs",
+              "RelativeDocumentMoniker": "Senai MVC\\Controllers\\EscolaController.cs",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Controllers\\EscolaController.cs",
+              "RelativeToolTip": "Senai MVC\\Controllers\\EscolaController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:52:25.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T11:38:49.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Senai MVC\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Senai MVC\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-07T11:34:05.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Senai MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Program.cs",
+              "RelativeToolTip": "Senai MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:26:21.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Shared\\Menu.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\Shared\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Shared\\Menu.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\Shared\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T11:23:54.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T11:15:36.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Senai MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\matheus_mohr\\Desktop\\Desafio MVC\\Senai MVC\\Senai MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Senai MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T11:21:19.35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
