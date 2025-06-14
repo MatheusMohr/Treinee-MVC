@@ -1,7 +1,7 @@
 ﻿@using Senai_MVC.Models.Escola
 @model List<EscolaModel>
 
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<div class="d-grid gap-2 d-md-flex justify-content-md-right">
     <a class="btn btn-primary" type="button" asp-controller="Escola" asp-action="Form">Novo</a>
 </div>
 <table class="table table-striped table-hover">
@@ -9,6 +9,8 @@
         <tr>
             <th scope="col">ID</th>
             <th scope="col">Nome</th>
+
+            <th class="text-end" scope="col">Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -18,6 +20,14 @@
                 <tr>
                     <th scope="row">@escola.Id</th>
                     <td>@escola.Nome</td>
+                    <td class="text-end">
+                        <a class="btn" type="button" href="/Escola/Editar/@escola.Id">
+                            <i class="bi bi-pencil"></i>
+                        </a>
+                        <a class="btn" type="button" href="/Escola/Remover/@escola.Id" onclick="return confirm('Tem certeza que deseja excluir?')">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
                 </tr>
             }
         }

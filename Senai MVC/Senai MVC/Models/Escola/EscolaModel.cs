@@ -7,5 +7,6 @@ namespace Senai_MVC.Models.Escola
         public long Id { get; set; }
         [Required(ErrorMessage = "Campo nome é Obrigatório!")]
         public string Nome { get; set; }
+        public EnderecoModel? Endereco { get; set; }
     }
 }

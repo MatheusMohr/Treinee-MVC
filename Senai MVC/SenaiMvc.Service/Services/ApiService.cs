@@ -32,5 +32,13 @@ namespace SenaiMvc.Service.Services
             return JsonConvert.DeserializeObject<T>(json);
         }
 
+        public async Task<bool> DeleteAsync(string endpoint)
+        {
+            var response = await _httpClient.DeleteAsync(endpoint);
+            response.EnsureSuccessStatusCode();
+            if (response.IsSuccessStatusCode)
+                return true;
+            return false;
+        }
     }
 }

@@ -30,9 +30,24 @@ namespace Senai_MVC.Controllers
         {
             if (ModelState.IsValid) 
             {
-                var retorno = await _apiService.PostAsync<EscolaModel>("/Escola/Adicionar_Escola", model);
+                var retorno = await _apiService.PostAsync<EscolaModel>("/Escola/Salvar", model);
+                return Redirect("index");
             }
             return View(model);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Editar(long id)
+        {
+            var model = await _apiService.GetAsync<EscolaModel>($"/Escola/Obter_Por_Id?id={id}");
+            return View("Form", model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Remover(long id)
+        {
+            var model = await _apiService.DeleteAsync($"/Escola/Remover_Escola?id={id}");
+            TempData["SuccessMessage"] = "Escola removida com sucesso!";
+            return Redirect("/Escola/Index");
         }
     }
 }
