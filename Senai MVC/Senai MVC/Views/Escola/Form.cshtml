@@ -7,6 +7,8 @@
 
 	<div class="mb-3">
 		<input type="hidden" asp-for="Id" />
+		<input type="hidden" asp-for="Endereco.Id"/>
+
 		<label class="form-label">Nome Escola</label>
 		<input type="text" class="form-control" asp-for="Nome" />
 		@Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger" })
@@ -16,31 +18,44 @@
 		<div class="col-md-5">
 			<label class="form-label">Rua</label>
 			<input type="text" class="form-control" asp-for="Endereco.Rua" />
-		</div>
-		<div class="col-md-5">
-			<label class="form-label">Bairro</label>
-			<input type="text" class="form-control" asp-for="Endereco.Bairro" />
+			@Html.ValidationMessageFor(m => m.Endereco.Rua, "", new { @class = "text-danger" })
 		</div>
 		<div class="col-md-2">
 			<label class="form-label">Número</label>
 			<input type="text" class="form-control" asp-for="Endereco.Numero" />
+			@Html.ValidationMessageFor(m => m.Endereco.Numero, "", new { @class = "text-danger" })
+		</div>
+		<div class="col-md-5">
+			<label class="form-label">Bairro</label>
+			<input type="text" class="form-control" asp-for="Endereco.Bairro" />
+			@Html.ValidationMessageFor(m => m.Endereco.Bairro, "", new { @class = "text-danger" })
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6">
 			<label class="form-label">Cidade</label>
-			<input type="text" class="form-control" asp-for="Endereco.Cidade" />
+			<select asp-for="Endereco.Cidade" asp-items="Model.Cidades" class="form-control">
+				<option value="">--Selecione uma Cidade--</option>
+			</select>
+			@Html.ValidationMessageFor(m => m.Endereco.Cidade, "", new { @class = "text-danger" })
 		</div>
 		<div class="col-md-6">
 			<label class="form-label">Estado</label>
-			<input type="text" class="form-control" asp-for="Endereco.Estado" />
+			<select asp-for="Endereco.Estado" asp-items="Model.Estados" class="form-control">
+				<option value="">--Selecione um Estado--</option>
+			</select>
+			@Html.ValidationMessageFor(m => m.Endereco.Estado, "", new { @class = "text-danger" })
 		</div>
 	</div>
 
 	<br />
 
 	<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-		<button type="button" class="btn btn-secondary">Cancelar</button>
+		<a href="@Url.Action("Index" , "Escola")" type="button" class="btn btn-secondary">Cancelar</a>
 		<button type="submit" class="btn btn-success">Salvar</button>
 	</div>
 </form>
+
+@section Scripts {
+	<scrip src>"~/js/escola.js"</scrip>
+}
