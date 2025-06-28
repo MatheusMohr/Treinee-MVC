@@ -41,7 +41,7 @@
 		</div>
 		<div class="col-md-6">
 			<label class="form-label">Estado</label>
-			<select asp-for="Endereco.Estado" asp-items="Model.Estados" class="form-control">
+			<select asp-for="Endereco.Estado" asp-items="Model.Estados" onchange="escola.carregarCidadePorUF(this.value)" class="form-control">
 				<option value="">--Selecione um Estado--</option>
 			</select>
 			@Html.ValidationMessageFor(m => m.Endereco.Estado, "", new { @class = "text-danger" })
@@ -57,5 +57,5 @@
 </form>
 
 @section Scripts {
-	<scrip src>"~/js/escola.js"</scrip>
+	<script src="~/js/escola.js"></script>
 }

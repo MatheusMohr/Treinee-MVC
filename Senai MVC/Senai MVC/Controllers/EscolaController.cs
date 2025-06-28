@@ -38,13 +38,21 @@ namespace Senai_MVC.Controllers
                     model.Endereco.Id = 0;
                 var retorno = await _apiService.PostAsync<EscolaModel>("/Escola/Salvar", model);
                 return Redirect("index");
-            } 
+            }
+            await AlimentarEstados(model); 
             return View(model);
         }
         [HttpGet]
         public async Task<IActionResult> Editar(long id)
         {
             var model = await _apiService.GetAsync<EscolaModel>($"/Escola/Obter_Por_Id?id={id}");
+            if (model.Endereco == null)
+                model.Endereco = new EnderecoModel();
+            await AlimentarEstados(model);
+            if(!string.IsNullOrEmpty(model.Endereco.Estado))
+            {
+                await AlimentarCidades(model, model.Endereco.Estado);
+            }
             return View("Form", model);
         }
 
@@ -71,7 +79,7 @@ namespace Senai_MVC.Controllers
         public async Task AlimentarCidades(EscolaModel model, string uf)
         {
             using var httpClient = new HttpClient();
-            var response = await httpClient.GetAsync($"https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/municipios");
+            var response = await httpClient.GetAsync($"https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/distritos");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -91,6 +99,29 @@ namespace Senai_MVC.Controllers
                     Selected = c.Id.ToString() == model.Endereco.Cidade.ToString()
                 })
                 .ToList();
+        }
+
+
+
+        [HttpGet]
+
+        public async Task<IActionResult> ObterCidadesPorUF(string uf)
+        {
+            using var httpclient = new HttpClient();
+            var response = await httpclient.GetAsync($"https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/distritos");
+
+            if (!response.IsSuccessStatusCode)
+                return BadRequest("Erro ao buscar cidades");
+
+            var json = await response.Content.ReadAsStringAsync();
+            var cidades = JsonConvert.DeserializeObject<List<CidadeIBGE>>(json);
+
+            var resultado = cidades
+                .OrderBy(c => c.Nome)
+                .Select(c => new { id = c.Id, nome = c.Nome })
+                .ToList();
+
+            return Json(resultado);
         }
 
     }

@@ -8,7 +8,7 @@ namespace Senai_MVC.Models.Escola
         [Required(ErrorMessage ="Campo Estado é Obrigatório"), MaxLength(2)]
         public string? Estado { get; set; }
         [Required(ErrorMessage = "Campo Cidade é Obrigatório")]
-        public string? Cidade { get; set; }
+        public int? Cidade { get; set; }
         [Required(ErrorMessage = "Campo Rua é Obrigatório")]
         public string? Rua { get; set; }
         [Required(ErrorMessage = "Campo Bairro é Obrigatório")]
